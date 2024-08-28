@@ -48,20 +48,35 @@ button {
     transition: background-color 0.3s;
 }
 
+button1 {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.clear {
+    background-color: #c50000;
+}
+
+.operator {
+    background-color: #ff7b00;
+}
+
+.equal {
+    background-color: #ff7b00;
+}
+
 button:hover {
     background-color: #666;
 }
 
-.operator, .equal {
-    background-color: #ff7b00;
-}
-
 .operator:hover, .equal:hover {
     background-color: #ff9a3c;
-}
-
-.clear {
-    background-color: #ff4444;
 }
 
 .clear:hover {
